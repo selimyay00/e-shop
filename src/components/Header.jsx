@@ -7,6 +7,7 @@ import './Header.css';
 function Header() {
     return (
         <div className='header'>
+            <h1>version-1 branch header</h1>
             <div className='header__section1'>
                 <StorefrontIcon className='store-icon' />
                 <h4>E-Shop</h4>
