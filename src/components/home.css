@@ -1,0 +1,11 @@
+.home-image {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.first-row, .second-row, .third-row {
+    display: flex;
+    justify-content: space-evenly;
+}
