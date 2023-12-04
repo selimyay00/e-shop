@@ -17,15 +17,15 @@ function Home() {
                         id='1'
                         title='Bennett Mystic 15.6 inch Laptop
                         for Men and Women'
-                        price={35}
-                        rating={3}
+                        price={39.99}
+                        rating={2}
                         image={bag}
                     />
                     <Product 
                         id='2'
                         title='TV Unveiled: The Nexus Chronicles - Unraveling Realms'
-                        price={100}
-                        rating={4}
+                        price={699.99}
+                        rating={3}
                         image={tv}
                     />
                 </div>
@@ -33,21 +33,21 @@ function Home() {
                     <Product 
                         id='3'
                         title='iPhone 14'
-                        price={100}
+                        price={999.99}
                         rating={4}
                         image={iphone}
                     />
                     <Product 
                         id='4'
                         title='CaptureSphere: Lenscrafting moments'
-                        price={100}
-                        rating={4}
+                        price={399.99}
+                        rating={2}
                         image={camera}
                     />
                     <Product 
                         id='5'
                         title='TimeCraft Elegance: Wrist Symphony'
-                        price={100}
+                        price={199.99}
                         rating={4}
                         image={watch}
                     />
@@ -56,7 +56,7 @@ function Home() {
                     <Product 
                         id='6'
                         title='TimeCraft Elegance: Wrist Symphony'
-                        price={100}
+                        price={99.99}
                         rating={4}
                         image={airpods}
                     />

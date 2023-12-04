@@ -9,9 +9,18 @@ function Product(props) {
                     {props.title}
                 </p>
                 <p className='product__price'>
-                    {props.price}
+                    <small>$</small>{props.price}
                 </p>
-                <FaStar className='product__rating' />
+                <div className='product__rating'>
+                    {
+                        Array(props.rating)
+                        .fill()
+                        .map((_, i) => (
+                            <FaStar />
+                        ))
+                    }
+                </div>
+                
             </div>
             <img src={props.image} alt="images" className='product__images' />
             <button>Add to basket</button>
