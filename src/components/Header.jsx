@@ -1,16 +1,19 @@
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import StorefrontIcon from '@mui/icons-material/Storefront';
 import SearchIcon from '@mui/icons-material/Search';
-import './Header.css';
+import './header.css';
+import { Link } from "react-router-dom"
 
 
 function Header() {
     return (
         <div className='header'>
+            <Link to="/" style={{ textDecoration: 'none', color: 'white' }}>
             <div className='header__section1'>
                 <StorefrontIcon className='store-icon' />
                 <h4 className='link-text'>E-Shop</h4>
             </div>
+            </Link>
             <div className='header__section2'>
                 <input type="text" />
                 <SearchIcon size="large" className='search-icon' />
@@ -24,10 +27,13 @@ function Header() {
                     <h5 className='link-text'>Your</h5>
                     <h3 style={{marginTop: -1}} className='link-text'>Shop</h3>
                 </div>
+                <Link to="/checkout" style={{ textDecoration: 'none', color: 'white' }}>
                 <div className='shop-icon'>
-                <ShoppingCartIcon size="large" />
-                <h4>0</h4>
+                    <ShoppingCartIcon size="large" />
+                    <h4>0</h4>
                 </div>
+                </Link>
+                
             </div>
         </div>
     )
