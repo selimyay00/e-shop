@@ -15,8 +15,7 @@ function Home() {
                 <div className='first-row'>
                     <Product 
                         id='1'
-                        title='Bennett Mystic 15.6 inch Laptop
-                        for Men and Women'
+                        title='Zestful Citrus Carryall: Vibrant Orange Bag for Everyday Adventures'
                         price={39.99}
                         rating={2}
                         image={bag}

@@ -1,0 +1,19 @@
+.checkout {
+    padding: 30px;
+}
+
+.checkout__left {
+    width: 70%;
+}
+
+.checkout__right {
+    width: 30%;
+}
+
+.checkout__image {
+    height: 100px;
+    max-height: 150px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
