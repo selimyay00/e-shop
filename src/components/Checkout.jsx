@@ -1,6 +1,7 @@
 import './checkout.css';
 import christmas from '../images/christmas.jpg';
 import CheckoutProduct from './CheckoutProduct';
+import Subtotal from './Subtotal';
 
 function Checkout() {
     return (
@@ -11,7 +12,7 @@ function Checkout() {
                 <CheckoutProduct />
             </div>
             <div className='checkout__right'>
-
+                <Subtotal />
             </div>
         </div>
     )

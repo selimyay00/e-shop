@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     column-gap: 30px;
+    width: 100%;
   }
   
 .header__section1 {
