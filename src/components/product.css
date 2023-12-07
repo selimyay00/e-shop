@@ -29,3 +29,7 @@
     font-size: 12px;
     font-style: oblique;
 }
+
+.product > button:hover {
+    background-color: darkgreen;
+}
