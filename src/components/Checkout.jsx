@@ -10,6 +10,8 @@ function Checkout() {
                 <img src={christmas} className='checkout__image' />
                 <h2>Your Shopping Basket</h2>
                 <CheckoutProduct />
+                <CheckoutProduct />
+
             </div>
             <div className='checkout__right'>
                 <Subtotal />

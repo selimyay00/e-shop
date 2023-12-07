@@ -3,6 +3,7 @@ import CurrencyFormat from 'react-currency-format'
 
 function Subtotal() {
     return (
+        
         <div className='subtotal'>
             <CurrencyFormat 
                 renderText={(value) => (
@@ -20,6 +21,7 @@ function Subtotal() {
                 displayType='text'
                 thousandSeparator={true}
             />
+            <button>Proceed to Checkout</button>
         </div>
     )
 }

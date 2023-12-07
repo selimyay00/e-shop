@@ -1,3 +1,37 @@
-.checkoutProduct__image {
-    height: 100px;
+.checkout-product {
+    background-color: lightgrey;
+    color: black;
+    height: 200px;
+    width: max-content;
+    display: flex;
+    max-width: 610px;
+    margin: 20px 0;
+}
+
+.checkout-image {
+    height: 100%;
+    width: 35%;
+    display: flex;
+    object-fit: fill;
+    border-radius: 5px;
+}
+
+.checkout-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    padding: 20px;
+}
+
+.checkout-info > button {
+    max-width: 150px;
+    margin-top: -10px;
+    border-radius: 5px;
+    height: 60px;
+    background-color: darkred;
+    color: white;
+}
+
+.checkout-info > button:hover {
+    background-color: red;
 }

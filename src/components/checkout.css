@@ -1,13 +1,6 @@
 .checkout {
     padding: 30px;
-}
-
-.checkout__left {
-    width: 70%;
-}
-
-.checkout__right {
-    width: 30%;
+    border: 1px solid black;
 }
 
 .checkout__image {

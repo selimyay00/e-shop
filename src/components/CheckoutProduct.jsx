@@ -5,25 +5,17 @@ import { FaStar } from 'react-icons/fa';
 
 function CheckoutProduct() {
     return (
-        <div className='checkoutProduct'>
-            <img 
-                src={bag} 
-                alt='checkout image' 
-                className='checkoutProduct__image'
-            />
-            <div className='checkoutproduct__info'>
-                <p className='checoutProduct__title'>
-                Zestful Citrus Carryall: Vibrant Orange Bag for Everyday Adventures
-                </p>
-                <p className='checkoutProduct__price'> 
-                    <small>$</small>
-                    <strong>39.99</strong>
-                </p>
-                <div className='checkoutProduct__rating'>
+        <div className='checkout-product'>
+            <img src={bag} alt="bag" className='checkout-image' />
+                <div className='checkout-info'>
+                    <p>Zestful Citrus Carryall: Vibrant Orange Bag for Everyday AdventuresZestful Citrus Carryall: Vibrant Orange Bag for Everyday Adventures</p>
+                    <p>
+                        <strong>$39.99</strong>
+                    </p>
                     <FaStar />
+                    <button>Remove from Basket</button>
                 </div>
-                <button>Remove from Basket</button>
-            </div>
+                
         </div>
     )
 }
