@@ -3,19 +3,24 @@ import bag from '../images/bag.jpg';
 import { FaStar } from 'react-icons/fa';
 
 
-function CheckoutProduct() {
+function CheckoutProduct(props) {
     return (
         <div className='checkout-product'>
-            <img src={bag} alt="bag" className='checkout-image' />
+            <img src={props.image} alt="image" className='checkout-image' />
                 <div className='checkout-info'>
-                    <p>Zestful Citrus Carryall: Vibrant Orange Bag for Everyday AdventuresZestful Citrus Carryall: Vibrant Orange Bag for Everyday Adventures</p>
+                    <p>{props.title}</p>
                     <p>
-                        <strong>$39.99</strong>
+                        <strong>{props.price}</strong>
                     </p>
-                    <FaStar />
+                <div className='product__rating'>
+                    {Array(props.rating)
+                        .fill()
+                        .map((_, i) => (
+                            <FaStar key={i} />
+                        ))}
+                </div>
                     <button>Remove from Basket</button>
                 </div>
-                
         </div>
     )
 }
