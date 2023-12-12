@@ -10,7 +10,7 @@ function CheckoutProduct(props) {
                 <div className='checkout-info'>
                     <p>{props.title}</p>
                     <p>
-                        <strong>{props.price}</strong>
+                        <strong>${props.price}</strong>
                     </p>
                 <div className='product__rating'>
                     {Array(props.rating)
