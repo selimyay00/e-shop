@@ -1,6 +1,6 @@
 .header {
     padding: 15px;
-    background: linear-gradient(to right, #222222, black);
+    background-color: black;
     color: white;
     display: flex;
     align-items: center;
@@ -24,6 +24,7 @@
     height: 25px;
     border-radius: 5px;
     width: 100%;
+    min-width: 100px;
   }
 
   .search-icon {
