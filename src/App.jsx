@@ -6,16 +6,14 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className="app">
-      <Router>
+      <Router basename="/e-shop">
         <Routes>
-
-          <Route path="/checkout" element={<><Header /><Checkout /></>} />
+          <Route path="checkout" element={<><Header /><Checkout /></>} />
           <Route path="/" element={<><Header /><Home /></>} />
-
         </Routes>
       </Router>
     </div>
   );
 }
 
-export default App
+export default App;
