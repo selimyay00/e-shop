@@ -1,9 +1,17 @@
 import './checkoutproduct.css'
-import bag from '../images/bag.jpg';
-import { FaStar } from 'react-icons/fa';
+import { FaStar } from 'react-icons/fa'
+import { useStateValue } from "./StateProvider"
 
 
 function CheckoutProduct(props) {
+    const [{basket}, dispatch ] = useStateValue()
+
+    const removeFromBasket = () => {
+        dispatch({
+            type: "REMOVE_FROM_BASKET",
+            id: props.id,
+        })
+    }
     return (
         <div className='checkout-product'>
             <img src={props.image} alt="image" className='checkout-image' />
@@ -19,7 +27,7 @@ function CheckoutProduct(props) {
                             <FaStar key={i} />
                         ))}
                 </div>
-                    <button>Remove from Basket</button>
+                    <button onClick={removeFromBasket}>Remove from Basket</button>
                 </div>
         </div>
     )

@@ -1,3 +1,14 @@
+.product {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #222222;
+    margin: 20px;
+    color: lightgrey;
+    line-height: 25px;
+}
+
 .product__images {
     min-height: 70px;
     min-width: 90px;
@@ -8,14 +19,8 @@
     border-radius: 10px;
 }
 
-.product {
-    border-radius: 5px;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    background-color: white;
-    margin: 20px;
+.product__info {
+    font-size: larger;
 }
 
 .product > button {
@@ -23,8 +28,8 @@
     min-height: 50px;
     height: 30px;
     margin: 10px auto;
-    background-color: darkslategray;   
-    color: white;
+    background-color: black;   
+    color: lightgray;
     border-radius: 5px;
     font-size: 12px;
     font-style: oblique;

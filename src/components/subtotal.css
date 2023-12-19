@@ -1,9 +1,9 @@
 .subtotal {
     border: 1px solid black;
     border-radius: 5px;
-    margin-top: 20px;
+    margin: 20px auto;
     padding: 20px;
-    background-color: darkgray;
+    background-color: #222222;
     width: 200px;
     display: flex;
     flex-direction: column;

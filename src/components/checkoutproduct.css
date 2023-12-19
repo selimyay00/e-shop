@@ -1,16 +1,17 @@
 .checkout-product {
-    background-color: lightgrey;
-    color: black;
+    background-color: #222222;
+    color: lightgrey;
     height: 200px;
-    width: max-content;
+    width: 400px;
     display: flex;
-    max-width: 610px;
-    margin: 20px 0;
+    max-width: 500px;
+    margin: 30px auto;
+    border-radius: 5px;
 }
 
 .checkout-image {
     height: 100%;
-    width: 35%;
+    width: 60%;
     display: flex;
     object-fit: fill;
     border-radius: 5px;
@@ -20,17 +21,20 @@
     display: flex;
     flex-direction: column;
     margin-left: 15px;
+    margin-bottom: 30px;
     padding: 20px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .checkout-info > button {
     max-width: 150px;
     margin-top: 20px;
     border-radius: 5px;
-    height: 50px;
+    min-height: 55px;
     background-color: darkred;
-    color: white;
+    color: lightgrey;
 }
 
 .checkout-info > button:hover {

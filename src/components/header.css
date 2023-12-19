@@ -1,6 +1,6 @@
 .header {
     padding: 15px;
-    background-color: black;
+    background: linear-gradient(to right, #222222, black);
     color: white;
     display: flex;
     align-items: center;
@@ -63,5 +63,5 @@
 }
 
 .store-icon:hover {
-  color: green;
+  color: darkgreen;
 }
