@@ -1,6 +1,6 @@
 import Header from "./components/Header"
 import Home from "./components/Home"
-import Checkout from "./components/Checkout"
+import Checkout from "./components/checkout/Checkout";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {

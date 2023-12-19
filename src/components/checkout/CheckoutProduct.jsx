@@ -1,6 +1,6 @@
 import './checkoutproduct.css'
 import { FaStar } from 'react-icons/fa'
-import { useStateValue } from "./StateProvider"
+import { useStateValue } from "../StateProvider"
 
 
 function CheckoutProduct(props) {
