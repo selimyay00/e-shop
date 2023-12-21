@@ -2,9 +2,10 @@
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    width: 250px;
     padding: 10px;
     background-color: #222222;
-    margin: 20px;
+    margin: 5px;
     color: lightgrey;
     line-height: 25px;
 }
@@ -14,7 +15,7 @@
     min-width: 90px;
     height: 50%;
     object-fit: cover;
-    width: 50%;
+    width: 60%;
     margin: 30px auto;
     border-radius: 10px;
 }
