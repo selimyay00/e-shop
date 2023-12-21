@@ -7,6 +7,12 @@
     column-gap: 30px;
     width: 100%;
   }
+
+  @media (max-width: 520px) {
+    .header {
+      width: 520px;
+    }
+  }
   
 .header__section1 {
     display: flex;

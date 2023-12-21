@@ -10,7 +10,7 @@ import airpods from '../images/airpods.jpg';
 
 function Home() {
     return (
-        <div>            
+        <div className='products-div'>            
                 <img src={eCommerceImage} alt="e-commerce-image" className='home-image' />
                 <div className='first-row'>
                     <Product 

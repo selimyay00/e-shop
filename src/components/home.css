@@ -9,3 +9,9 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+@media (max-width: 520px) {
+    .products-div {
+        width: 520px;
+    }
+}
