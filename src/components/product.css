@@ -1,11 +1,11 @@
 .product {
-    border-radius: 5px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 450px;
     padding: 10px;
     background-color: #222222;
-    margin: 5px;
+    margin: 25px 5px;
     color: lightgrey;
     line-height: 25px;
 }

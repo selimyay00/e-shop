@@ -43,13 +43,7 @@ function Home() {
                         rating={2}
                         image={camera}
                     />
-                    <Product 
-                        id='5'
-                        title='TimeCraft Elegance: Wrist Symphony'
-                        price={199.99}
-                        rating={4}
-                        image={watch}
-                    />
+                    
                 </div>
                 <div className='third-row'>
                     <Product 
@@ -58,6 +52,13 @@ function Home() {
                         price={99.99}
                         rating={4}
                         image={airpods}
+                    />
+                    <Product 
+                        id='5'
+                        title='TimeCraft Elegance: Wrist Symphony'
+                        price={199.99}
+                        rating={4}
+                        image={watch}
                     />
                 </div>
         </div>
