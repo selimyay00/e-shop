@@ -23,7 +23,7 @@ function Header() {
             </div>
             <div className='header__section3'>
                 <div className='links'>
-                    <h5 className='link-text'><i>Hello Guest</i></h5>
+                    <h5 className='link-text'><i>Welcome!</i></h5>
                     <h3 style={{marginTop: -1}} className='link-text'>Sign In</h3>
                 </div>
                 <div className='links'>
