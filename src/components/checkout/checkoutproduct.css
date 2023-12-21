@@ -14,7 +14,8 @@
     width: 60%;
     display: flex;
     object-fit: fill;
-    border-radius: 5px;
+    border-radius: 15px;
+    padding: 30px;
 }
 
 .checkout-info {
@@ -40,3 +41,14 @@
 .checkout-info > button:hover {
     background-color: red;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 520px) {
+    .checkout-product {
+        width: 520px;
+    }
+  }

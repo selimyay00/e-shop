@@ -11,13 +11,8 @@ function Checkout() {
         <div className='checkout'>
             <div className='checkout__left'>
                 <img src={christmas} className='checkout__image' alt='Christmas' />
-                <h2 style={{ textAlign: 'center', letterSpacing: 0.5 }}>
-                    <i>
-                        Your Shopping Basket
-                    </i>
-                    
-                </h2>
-                <hr />
+                
+                
                 {basket.map(item => (
                     <CheckoutProduct 
                         key={item.id}

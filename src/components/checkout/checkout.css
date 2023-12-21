@@ -1,12 +1,30 @@
 .checkout {
-    padding: 30px;
-    border: 1px solid black;
+    padding: 5px
 }
 
 .checkout__image {
+    padding: 0px;
     height: 100px;
     max-height: 150px;
-    width: 100%;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+@media (max-width: 520px) {
+    .checkout__image {
+        width: 520px;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+@media (max-width: 520px) {
+    .checkout {
+        width: 520px;
+    }
 }
