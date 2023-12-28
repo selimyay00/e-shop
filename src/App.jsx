@@ -1,5 +1,5 @@
-import Header from "./components/Header"
-import Home from "./components/Home"
+import Header from "./components/home/Header"
+import Home from "./components/home/Home"
 import Checkout from "./components/checkout/Checkout";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 

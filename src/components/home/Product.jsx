@@ -1,6 +1,6 @@
 import './product.css';
 import { FaStar } from 'react-icons/fa';
-import { useStateValue } from './StateProvider';
+import { useStateValue } from '../StateProvider';
 
 function Product(props) {
     const [state, dispatch] = useStateValue();

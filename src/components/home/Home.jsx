@@ -1,12 +1,14 @@
-import './home.css'
-import eCommerceImage from '../images/e-commerce.jpg';
+import React from 'react';
+import './home.css';
+import eCommerceImage from '../../images/e-commerce.jpg';
 import Product from './Product';
-import bag from '../images/bag.jpg';
-import tv from '../images/tv.jpg';
-import iphone from '../images/iphone.jpg';
-import camera from '../images/camera.jpg';
-import watch from '../images/watch.jpg';
-import airpods from '../images/airpods.jpg';
+import bag from '../../images/bag.jpg';
+import tv from '../../images/tv.jpg';
+import iphone from '../../images/iphone.jpg';
+import camera from '../../images/camera.jpg';
+import watch from '../../images/watch.jpg';
+import airpods from '../../images/airpods.jpg';
+
 
 function Home() {
     return (
